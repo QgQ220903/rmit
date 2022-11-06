@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+<body>
+  <div class="wrapper">
+    <div class="header">
+      <nav class="navbar">
+        <img src="./assets/img/logo.png" alt="" width="90" height="55">
+        <div class="navigation">
+          <ul>
+            <li><a href="">RMIT Australia</a></li>
+            <li><a href="">Browse courses</a></li>
+            <li><a href="">Students</a></li>
+            <li><a href="">Alumni</a></li>
+            <li><a href="">Staff</a></li>
+            <li><a href="">Library</a></li>
+            <li><a href="">RMIT Online</a></li>
+            <li><a href="">COVID</a></li>
+            <li><a href=""><i class='bx bx-heart'></i></a></li>
+            <li><a href=""><i class='bx bx-search'></i></a></li>
+          </ul>
+        </div>
+        <div class="icon">
+          <a href=""><i class='bx bx-heart'></i></a>
+          <a href=""><i class='bx bx-search'></i></a>
+          <a href=""><i class='bx bx-menu'></i></a>
+        </div>
+      </nav>
+      <video src="assets/video/rmit-brand-extension-campaign-2022-web.mp4" controls loop></video>
+      <div class="section1">
+        <div class="section1_title">
+          <img src="./assets/img/rmit-logo-2.png" alt="" width="150" height="50">
+          <p class="section1_title">What's next awaits</p>
+          <div class="section1_subttitle">
+            <p>You might be interested in</p>
+            <div class="section2_contact">
+              <a href="">Chat to us</a>
+              <a href="">Extra support</a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="section1_btn">
+          <button>Study</button>
+          <button>Research</button>
+          <button>Partner</button>
+          <button>Apply now</button>
+        </div>    
+        
+      </div>
+      <div class="search_bar">
+        <input type="text" placeholder="Search courses">
+        <button><i class='bx bx-search'></i></button>
+      </div>
+      
+    </div>
+    <div class="section2">
+      <p>You might be interested in</p>
+      <div class="section2_contact">
+        <a href="">Chat to us</a>
+        <a href="">Extra support</a>
+      </div>
+    </div>
+
+    <div class="infomation_section">
+      <p class="info_title">
+        RMIT is a global university of technology, design and enterprise
+      </p>
+      <div class="infomation_content">
+        <p class="info_content">
+          <span>Top 250</span>
+          <br>
+          universities worldwide1
+        </p>
+        <p class="info_content">
+          <span>15,800+ industry placements</span>
+          <br>
+          for students in 2020
+        </p>
+        <p class="info_content">
+          <span>97,000 students</span>
+          <br>
+          from 230+ different countries
+        </p>
+        <p class="sub_content">
+          1 QS World University Ranking 2021
+        </p>
+      </div>
+      
+    </div>
+
+    <div class="study_section">
+      <div class="study_course">
+        
+        <div class="study_course_list">
+          <div id="first_list" class="first_list">
+            <li class="course"><a href="">Architecture</a></li>
+            <li class="course"><a href="">Art</a></li>
+            <li class="course"><a href="">Avitation</a></li>
+            <li class="course"><a href="">Biomedical sciences</a></li>
+            <li class="course"><a href="">Building</a></li>
+            <li class="course"><a href="">Business</a></li>
+            <li class="course"><a href="">Communication</a></li>
+            <li class="course"><a href="">Design</a></li>
+            <li class="course"><a href="">Education</a></li>
+            <li class="course"><a href="">Engineering</a></li>
+          </div>
+          <div id="seccond_list" class="seccond_list">
+            <li class="course"><a href="">Enviorment</a></li>
+            <li class="course"><a href="">Fashion</a></li>
+            <li class="course"><a href="">Health</a></li>
+            <li class="course"><a href="">Infomation technology</a></li>
+            <li class="course"><a href="">Law</a></li>
+            <li class="course"><a href="">Media</a></li>
+            <li class="course"><a href="">Property</a></li>
+            <li class="course"><a href="">Psychology</a></li>
+            <li class="course"><a href="">Science</a></li>
+            <li class="course"><a href="">Social and community</a></li>
+          </div>
+        </div>
+        <button class="show_btn btn" id="show_less_btn" style="display: none;" onclick="showLess()">Show less</button>
+        <button class="show_btn btn" id="show_more_btn" onclick="showMore()">View More</button>
+      </div>
+    </div>
+    <div class="section3">
+      <div class="news_section first_new">
+        <div class="news_img">
+          <img src="./assets/img/students-on-bowen-street-1440x864.jpeg" alt="" class="img">
+        </div>
+        <div class="news1">
+          <p class="news_title">
+            Information for international students
+          </p>
+          <p class="news_info">
+            Join over 18,000 international students at RMIT University, one of the top universities in Australia. Browse courses, discover life in Melbourne and find out how to apply as an international student.
+          </p>
+          <button class="find_btn">Find out more</button>
+        </div>
+      </div>
+      <div class="news_section seccond_news">
+        <div class="news_img">
+          <img src="./assets/img/inton-students-diverse-group-design-1220x732.jpeg" alt="" class="img">
+        </div>
+        <div class="news2">
+          <p class="news_title">
+            What RMIT student will you be?
+          </p>
+          <p class="news_info">
+            Are you a high achiever motivated by grades or an explorer who loves adventure? Take the RMIT Student Personality Quiz and download your guide to starting at RMIT. <br>
+            <a class="news_link" href="">Find out more</a>
+          </p>
+        </div>
+      </div>
+      <div class="news_section third_news">
+        <div class="news_img">
+          <img src="./assets/img/news-ha4mme-22022-1440x864.jpeg" alt="" class="img">
+        </div>
+        <div class="news3">
+          <p class="news_title">
+            Hot new facility puts firefighter and emergency service uniforms to the test
+          </p>
+          <p class="news_info">
+            A fire-breathing facility at RMIT will be putting emergency service’s uniforms and other materials to the flame test to ensure the safety of emergency service equipment. <br>
+            <a class="news_link" href=""> Read article</a>
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="section4">
+      <div class="country">
+        <div class="flag_img">
+          <img class="flag" src="assets/img/flag-red.png" alt="">
+        </div>
+        <div class="flag_img">
+          <img class="flag" src="assets/img/flag-green.png" alt="">
+        </div>
+      </div>
+      <div class="section4_content">
+        <p class="title">
+          Acknowledgement of Country
+        </p>
+        <p class="content">
+          RMIT University acknowledges the people of the Woi wurrung and Boon wurrung language groups of the eastern Kulin Nation on whose unceded lands we conduct the business of the University. RMIT University respectfully acknowledges their Ancestors and Elders, past and present. RMIT also acknowledges the Traditional Custodians and their Ancestors of the lands and waters across Australia where we conduct our business.
+        </p>
+        <a href="#">More infomation <i class='bx bxs-chevron-right'></i></a>
+      </div>
+    </div>
+    <div class="footer">
+      <div class="logo">
+        <img src="./assets/img/1280px-RMIT_University_Logo.svg.png" alt="" class="logo_img">
+      </div>
+      <div class="nav">
+        <li><a href="">News</a></li>
+        <li><a href="">Events</a></li>
+        <li><a href="">Library</a></li>
+        <li><a href="">Maps</a></li>
+        <li><a href="">Careers</a></li>
+        <li><a href="">Contacts</a></li>
+      </div>
+      <div class="nav">
+        <div class="nav_title">
+          <a href="">Study with Us</a>
+          <button onclick="openNav1()" id="open_nav1" class="nav_btn">
+            <i class='bx bxs-chevron-down'></i>
+          </button>       
+          <button onclick="closeNav1()" id="close_nav1" class="nav_btn" style="display: none;">
+            <i class='bx bxs-chevron-up'></i>
+          </button>
+        </div>
+        <div class="list_nav1">
+          <li><a href="">Levels of study</a></li>
+          <li><a href="">Online courses and degrees </a></li>
+          <li><a href="">Single courses</a></li>
+          <li><a href="">Applying to RMIT</a></li>
+          <li><a href="">International students</a></li>
+          <li><a href="">Parents</a></li>
+          <li><a href="">Careers advisers</a></li>
+        </div>
+        
+      </div>
+      <div class="nav" id="nav">
+        <div class="nav_title">
+          <a href="">Life at RMIT</a>
+          <button onclick="openNav2()" id="open_nav2" class="nav_btn" href=""><i class='bx bxs-chevron-down'></i></button>
+          <button onclick="closeNav2()" id="close_nav2" class="nav_btn" style="display: none;">
+            <i class='bx bxs-chevron-up'></i>
+          </button>
+        </div>
+        <div class="list_nav2">
+          <li><a href="">Study experience</a></li>
+          <li><a href="">Student life </a></li>
+          <li><a href="">Support for students</a></li>
+          <li><a href="">Global opportunities</a></li>
+          <li><a href="">Industry connections</a></li>
+        </div>
+        
+        
+      </div>
+      <div class="nav">
+        <div class="nav_title">
+          <a href="">Research</a>
+          <button onclick="openNav3()" id="open_nav3" class="nav_btn" href=""><i class='bx bxs-chevron-down'></i></button>
+          <button onclick="closeNav3()" id="close_nav3" class="nav_btn" style="display: none;">
+            <i class='bx bxs-chevron-up'></i>
+          </button>
+        </div>
+        <div class="list_nav3">
+          <li><a href="">Our research</a></li>
+          <li><a href="">Centres and collaborations </a></li>
+          <li><a href="">Partnerships</a></li>
+          <li><a href="">Research degrees</a></li>
+          <li><a href="">Find research</a></li>
+          <li><a href="">Reasearch contacts</a></li>
+        </div>
+        
+      </div>
+      <div class="nav">
+        <div class="nav_title">
+          <a href="">Partner</a>
+          <button onclick="openNav4()" id="open_nav4" class="nav_btn" href=""><i class='bx bxs-chevron-down'></i></button>
+          <button onclick="closeNav4()" id="close_nav4" class="nav_btn" style="display: none;">
+            <i class='bx bxs-chevron-up'></i>
+          </button>
+        </div>
+        <div class="list_nav4">
+          <li><a href="">Worforce development</a></li>
+          <li><a href="">Staff development and training </a></li>
+          <li><a href="">Research partnerships</a></li>
+          <li><a href="">Facilities and equipment services</a></li>
+          <li><a href="">Giving</a></li>
+        </div>
+        
+      </div>
+      <div class="nav">
+        <div class="nav_title">
+          <a href="">About</a>
+          <button onclick="openNav5()" id="close_nav5" class="nav_btn" href=""><i class='bx bxs-chevron-down'></i></button>
+          <button onclick="closeNav5()" id="close_nav5" class="nav_btn" style="display: none;">
+            <i class='bx bxs-chevron-up'></i>
+          </button>
+        </div>
+        <div class="list_nav5">
+          <li><a href="">Our strategy</a></li>
+          <li><a href="">Governance and management </a></li>
+          <li><a href="">Values</a></li>
+          <li><a href="">Sustainablility</a></li>
+          <li><a href="">Schools and colleges</a></li>
+          <li><a href="">Our locations and facilities</a></li>
+        </div>
+        
+      </div>
+    </div>
+
+    <div class="social">
+      <ul>
+        <li><a href=""><i class='bx bxl-facebook-circle'></i></a></li>
+        <li><a href=""><i class='bx bxl-twitter'></i></a></li>
+        <li><a href=""><i class='bx bxl-instagram' ></i></a></li>
+        <li><a href=""><i class='bx bxl-linkedin'></i></a></li>
+        <li><a href=""><i class='bx bxl-reddit'></i></a></li>
+      </ul>
+      
+      <div class="copyright">
+        <p>
+          Copyright © 2022 RMIT University | Terms | Privacy | Accessibility | Website feedback | Complaints | ABN 49 781 030 034 | CRICOS provider number: 00122A | RTO Code: 3046 | Open Universities Australia
+        </p>
+      </div>
+
+      
+      
+     
+    </div>
+  </div>
+  <script src="./assets/js/main.js"></script>
+</body>
+</html>
